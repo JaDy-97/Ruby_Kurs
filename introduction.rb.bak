@@ -1,0 +1,8 @@
+puts "What's your name?"
+name = gets.chomp
+puts "What's your age?"
+age = gets.chomp
+puts "Your Name is #{name} and you are #{age} years old"
+age_f = age.to_f
+age_dog = age_f * 7
+puts "In dog-years you are #{age_dog} years old"
