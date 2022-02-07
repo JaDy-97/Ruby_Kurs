@@ -1,0 +1,2 @@
+require 'prime'
+(1..50).each do | i |print i if i.prime? == true end

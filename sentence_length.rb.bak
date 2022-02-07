@@ -1,0 +1,4 @@
+puts "enter a sentence"
+sentence = gets.chomp
+length = sentence.length
+puts "Your sentence has #{length} letters"
